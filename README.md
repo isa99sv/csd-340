@@ -1,2 +1,5 @@
-# csd-340
-Repo for CSD340-340A Web Development with HTML and (2265-DD)
+# CSD 340 Web Development with HTML and CSS
+## Contributors
+
+• Christine Mazhata
+• Colton Stone
