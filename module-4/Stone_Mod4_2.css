@@ -1,0 +1,38 @@
+#image-gallery {
+display: grid;
+grid-template-columns: auto auto auto;
+margin-top: 10%;
+text-align: center;
+padding: 10px;
+}
+
+#image-gallery div {
+border: 1px solid blue;
+padding: 10px;
+}
+
+h1 {
+text-align: center;
+color:rgb(255 150 0);
+}
+
+h3 {
+text-align: center;
+color:rgb(150 0 0);
+}
+
+figure {
+text-align: center;
+}
+
+figcaption {
+font-style: italic;
+font-size: .75em;
+color:rgb(0 0 200);
+}
+
+.landing_page {
+float: right;
+margin-top: 60%;
+margin-bottom: 20px;
+}
