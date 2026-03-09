@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Colton Stone, Assignment 10.3
+-->
+
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+
+</head>
+
+
+
+<body>
+
+<script>
+    function displayImage(images) {
+    var oriNode = document.getElementById("mainImage").innerHTML = content;
+    var newNode = document.createElement("img");
+    img = document.getElementById("mainImage");
+    newNode.id = "mainImage";
+    newNode.src = images;
+    newNode.alt = "altImage";
+    newNode.className = "mainImage";
+    newNode.style.width = "500px";
+    newNode.style.height = "330px";
+    newNode.style.border = "2px solid blue";
+    oriNode.parentNode.replaceChild(newNode, oriNode);
+}
+
+</script>
+
+    <h1>Assignment 10.3: JavaScript - Part 2</h1>
+    <div
+        onmouseover="this.style.color='purple';"
+        onmouseout="this.style.color=black';">
+        <h2>Click on each image to change it and then move the mouse off the picture to switch it back to the original image.</h2>
+    </div>
+<br>
+<br>
+    <div>
+        <a href=#>
+            <img id = "images1" src = "images/StarWars_OT.jpg" onclick="this.src='images/DVader.jpg'"
+                 onmouseleave="this.src='images/StarWars_OT.jpg'" alt="altImage">
+        </a>
+    </div>
+<br>
+<br>
+<div>
+    <a href=#>
+        <img id = "images2" src = "images/NightSky_Bleak.jpg" onclick="this.src='images/NightSky_Clear.jpg'"
+             onmouseleave="this.src='images/NightSky_Bleak.jpg'" alt="altImage">
+    </a>
+</div>
+
+</body>
+
+</html>
