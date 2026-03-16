@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Colton Stone, Assignment 11.2-->
+
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+</head>
+
+<body>
+<h1>Assignment 11.2: JavaScript - Part 3</h1>
+
+<label for="text"></label>
+<br>
+
+<input type="text" id="text" placeholder="Enter text in the box">
+<br>
+<br>
+
+<button type="button" onclick="Add()">Add</button>
+<button type="button" onclick="Delete()">Delete Last Entry</button>
+<button type="button" onclick="Sort()">Sort</button>
+
+<script>
+    let list = [];
+
+    function Add() {
+        alert(list)
+        list.push(text);
+        document.getElementById(text).innerHTML = list;
+        console.log(list)
+    }
+
+    function Delete() {
+        alert(text)
+    }
+
+    function Sort() {
+        alert(text)
+    }
+</script>
+
+</body>
+
+</html>
